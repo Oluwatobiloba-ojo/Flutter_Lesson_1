@@ -15,14 +15,14 @@ class Home extends StatelessWidget {
         title: Text(
           'Oluwatobi',
           style: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.bold,
+            color: Colors.black,
+            fontWeight: FontWeight.normal,
             fontSize: 30.0,
             fontStyle: FontStyle.italic,
           ),
-          ),
-        backgroundColor: Colors.black87,
-        centerTitle: true,
+      ),
+      backgroundColor: Colors.black87,
+      centerTitle: true,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
                 ),
               ),
             ),
-              SizedBox(height: 30.0),
+            SizedBox(height: 30.0),
             Padding(
               padding: EdgeInsets.fromLTRB(10.0, 5.0, 10.0, 0.0),
               child: Text(
